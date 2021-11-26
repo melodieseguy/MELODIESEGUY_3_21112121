@@ -35,6 +35,8 @@ body {
   text-align: center;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
+  -webkit-box-shadow: 0px 0px 10px #55555538;
+          box-shadow: 0px 0px 10px #55555538;
   border-radius: 30px;
   background-color: #9356DC;
   background-image: -webkit-gradient(linear, left bottom, left top, from(#9356DC), color-stop(#c466db), to(#FF79DA));
