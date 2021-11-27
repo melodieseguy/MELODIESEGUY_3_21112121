@@ -12,7 +12,7 @@ a {
 
     .subheader__iconemap i {
         font-size: 25px;
-        color: red;
+        color: black;
     }
 
     .subheader__content a {
@@ -28,9 +28,8 @@ a {
         font-size: 20px;
         text-align: center;
         color: #fff;
-        text-shadow: 1px 1px 1px #000;
-        -webkit-box-shadow: 12px 12px 22px 5px #363636; 
-        box-shadow: 12px 12px 22px 5px #2c2c2c;
+        -webkit-box-shadow: 1px 5px 20px 9px rgba(0,0,0,0.25); 
+        box-shadow: 1px 5px 20px 9px rgba(0,0,0,0.25);
         border-radius: 30px;
         background-color: #9356DC;
         background-image: linear-gradient(to top, #9356DC, #c466db, #FF79DA);
@@ -42,6 +41,6 @@ a {
 /* Section fonctionnement */ 
 
 .nav .nav__icon i {
-    color: red;
+    color: rgba(3, 3, 3, 0.39);
     font-size: 20px;
 }
