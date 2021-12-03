@@ -8,6 +8,11 @@ header {
         justify-content: center;
         font-family: 'Shrikhand', cursive;
         font-size: 40px;
+        font-weight: 550;
+    }
+
+    i {
+        font-size: 22px;
     }
 
 }
@@ -22,14 +27,24 @@ header {
         background-color: rgb(223, 223, 223);
         padding-top: 15px;
         padding-bottom: 15px;
+        -webkit-box-shadow: inset 1px 10px 18px -4px #000000; 
+        box-shadow: inset 1px 10px 18px -4px #8a8a8a;
     }
 
     .subheader__content {
         padding-left: 10px;
+        font-size: 18px;
     }
 
-    .subheader__content {
-        font-size: 18px;
+    .subheader__iconemap i {
+        font-size: 22px;
+        color: black;
+    }
+
+    .subheader__content a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
     }
 
     .prev__title {
@@ -40,21 +55,17 @@ header {
         
     }
 
+    .prev__content {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .prev__subtitle {
         display: flex;
         text-align: center;
         font-size: 18px;
-    }
-
-    .subheader__iconemap i {
-        font-size: 25px;
-        color: black;
-    }
-
-    .subheader__content a {
-        text-decoration: none;
-        color: black;
-        font-weight: 600;
     }
 
     button {

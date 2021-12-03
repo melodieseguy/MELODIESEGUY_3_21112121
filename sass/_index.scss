@@ -1,6 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(241, 241, 241);
+    margin: 0 auto;
+}
+
+.container-site {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 a {
@@ -21,6 +27,7 @@ a {
 
         .section__title {
             font-size: 25px;
+            padding-left: 25px;
         }
 
         .nav {
@@ -57,21 +64,55 @@ a {
         }
     }
 
-    &--restaurants {
+    .section--restaurants {
+
+        .section__title {
+            padding-left: 25px;
+        }
 
         .cartresto {
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
             .resto {
-                border-radius: 15px;
                 width: 88%;
-                height: 205px;
+                border-radius: 18px;
+                box-shadow: 0 5px 16px #0000002e;
+                margin-top: 12px;
+                margin-bottom: 20px;
             }
 
-            .resto__image {
-                border-radius: 15px 15px 0 0;
+            .resto__content {
+                color: black;
+                padding-left: 12px;
+                padding-bottom: 10px;
+            }
+
+            
+
+            .resto__image img {
                 box-sizing: content-box;
+                border-radius: 18px 18px 0 0;
                 width: 100%;
-                height: 410px;
+                height: 220px;
                 object-fit: cover;
+                position: relative;
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .resto__new {
+                top: 13px;
+                right: 8px;
+                width: 56px;
+                background: #99E2D0;
+                padding: 5px 14px;
+                font-size: 14px;
+                color: #369658;
+                font-weight: 800;
+                border-radius: 3px;
             }
         }
     }
